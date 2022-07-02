@@ -155,7 +155,6 @@ header {
 .custom-card {
   color: var(--primary);
 }
-
 /* Blogs */
 .blog {
   color: var(--primary);
@@ -242,6 +241,7 @@ footer p {
   .nav-navigation .nav-list {
     position: absolute;
     flex-direction: column;
+    align-items: center;
     background: var(--bg-color);
     width: 100%;
     height: 80vh;
@@ -251,6 +251,7 @@ footer p {
     z-index: 3;
     display: none;
     transition: ease-in-out;
+    margin: 0 auto;
   }
 
   .nav-navigation .nav-list.active-nav {
