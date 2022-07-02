@@ -106,6 +106,7 @@ header {
   padding-top: 16rem;
   padding-bottom: 15rem;
   margin: auto;
+  height: 100vh;
 }
 
 .hero .custom-hero-container {
@@ -145,6 +146,11 @@ header {
 }
 
 /* Lessons */
+
+.lessons,
+.blog {
+  padding-top: 2.5rem;
+}
 
 .custom-card {
   color: var(--primary);
